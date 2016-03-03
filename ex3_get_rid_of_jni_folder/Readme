@@ -1,0 +1,6 @@
+1. 使用NDK_PROJECT_PATH宏指定路径
+> export NDK_PROJECT_PATH=.
+> ndk-build NDK_APPLICATION_MK=./Application.mk
+
+2. 添加一个空的AndroidManifest.xml文件
+> ndk-build NDK_APPLICATION_MK=./Application.mk
